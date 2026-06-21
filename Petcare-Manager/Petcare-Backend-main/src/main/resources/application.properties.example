@@ -1,0 +1,19 @@
+# Banco de dados
+spring.datasource.url=jdbc:postgresql://localhost:5432/petcare_db
+spring.datasource.username=postgres
+spring.datasource.password=SUA_SENHA_AQUI
+
+# JPA
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+# Inicialização do banco
+spring.sql.init.mode=always
+spring.jpa.defer-datasource-initialization=true
+
+# JWT
+api.security.token.secret=SEU_SECRET_AQUI
+
+# Resend (e-mail)
+resend.api.key=SUA_CHAVE_RESEND_AQUI
